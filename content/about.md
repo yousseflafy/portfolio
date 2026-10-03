@@ -1,0 +1,4 @@
+# Youssef Mohamed Lafy
+## Biostatistician | Data Scientest
+
+#### Motivated biostatistician and data scientist with hands-on experience across more than 10 biomedical studies, including descriptive studies, clinical trials, and real-world evidence (RWE) projects. My role covers the full statistical workflow: developing Statistical Analysis Plans (SAPs), designing mock tables, and writing Statistical Analysis Reports (SARs), using R. I'm currently a Biostatistician at DataClin Group and a Teaching Assistant at the University of London (EUE), completing my M.Sc. in Applied Statistics after graduating first in my major. I also won DataCamp's 2025 Global Analytics Competition out of 2,000+ participants.

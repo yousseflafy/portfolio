@@ -1,0 +1,71 @@
+{
+    "title": {
+        "text": {
+            "headline": "PROFESSIONAL JOURNEY",
+            "text": "My career path and experiences"
+        }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year": "2020",
+                "month": "9"
+            },
+            "end_date": {
+                "year": "2024",
+                "month": "6"
+            },
+            "media": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmot79nELVZGXsb89lhji48uIP60LKjHK5_LbvcomZ0g&s=10",
+                "credit": "Capital University"
+            },
+            "text": {
+                "headline": "Student at the faculty of Commerce, Majer Applied Statistics",
+                "text": "Graduated with 90% Excellent Grade, Ranked 1st in the major out of 74."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2024",
+                "month": "9"
+            },
+            "media": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3SUIn-i0heUPH6AC7Vylj3nyOvxlz1FlmmEx7cRjk_g&s=10",
+                "credit": "The University of London – EUE Campus"
+            },
+            "text": {
+                "headline": "Teaching Assistant of Mathematics & Statistics at The University of London – EUE",
+                "text": "Provided tutorial sessions and academic support to students through office hours and personalized one-on-one mentoring. Developed and deployed a Python-based web application to automate grade analysis reporting, reducing processing time by 70% and increasing reporting accuracy."
+            }
+        },
+        {
+            "start_date": {
+                "year": "2025",
+                "month": "7"
+            },
+            "media": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEPls6eKuh4Mv71hL8WF09p3r8mI1iocxoQmxkmKfkRQ&s=10",
+                "credit": "DataClin"
+            },
+            "text": {
+                "headline": "Biostatistician at DataClin Group",
+                "text": "Performing end-to-end statistical analyses, from data cleaning and validation to advanced modeling and result interpretation. Conduct efficacy and safety analyses; prepare interim and final statistical reports. Developing and executing Statistical Analysis Plans (SAPs) aligned with study objectives. Automating data validation workflows, significantly improving efficiency and accuracy. Utilizing R programming for data analysis, statistical modeling, and automation."
+            }
+        }
+        ,
+        {
+            "start_date": {
+                "year": "2025",
+                "month": "3"
+            },
+            "media": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQEmhuZdujpaN2al-aAYGJI7WPSw8IVqI612gMCeByuA&s",
+                "credit": "Upwork"
+            },
+            "text": {
+                "headline": "Freelance Data Analyst Upwork",
+                "text": "Upwork Stats: (25+ hours, 5/5 rating, 3 completed jobs) Delivered statistical analysis for a psychological research project using R. Personalized tutoring in machine learning to graduate-level clients. Developed educational data science content and statistical modeling using Python."
+            }
+        }
+    ]
+}

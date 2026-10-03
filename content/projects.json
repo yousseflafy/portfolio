@@ -1,0 +1,47 @@
+{
+    "projects": {
+        "Medical Statistical Analysis Reports": [
+            {
+                "title": "Real-World Evidence on Disease-Modifying Therapy (DMT) Switching Patterns",
+                "category": "SAR",
+                "technologies": ["R", "Exploratory Data Analysis", "Data Visualization", "Healthcare Analytics"],
+                "description": "This study evaluates real-world Disease-Modifying Therapy (DMT) switching patterns in Multiple Sclerosis patients. It tracks shifts in disability (EDSS scores) and relapse rates before and after switching, while mapping key driver reasons against specific medication transitions.",
+                "tags": [],
+                "link": "https://commercehelwanedu-my.sharepoint.com/:u:/g/personal/youssef_mohamedlafi_2021_fcba_capu_edu_eg/IQCYafQo9jxURqH6z9Z1LixaAfOiV0f1NGQxXsUJUMztYo8?e=Q9W3Bq"
+            },
+            {
+                "title": "Longitudinal Safety and Tolerability Profile of Disease-Modifying",
+                "category": "SAR",
+                "technologies": ["R", "Longitudinal Data Analysis", "Data Visualization", "Healthcare Analytics"],
+                "description": "This study analyzes longitudinal laboratory safety profiles and adverse event (AE) dynamics in patients undergoing treatment. It tracks shifts in lab parameters relative to baseline across follow-up visits and monitors AE incidence to evaluate drug safety trajectories over time.",
+                "tags": [],
+                "link": "https://commercehelwanedu-my.sharepoint.com/:u:/g/personal/youssef_mohamedlafi_2021_fcba_capu_edu_eg/IQBA3iOQvhvcS6MbnoTvKEp_AUpaY6FTEwB0Zs6RwUrdnRs?e=r6WfqT"
+            },
+            {
+                "title": "Tyrosine Kinase Inhibitor (TKI) Treatment Patterns, Safety Profiles, and Survival Outcomes in Chronic Myeloid Leukemia: A Real-World Evidence Study",
+                "category": "SAR",
+                "technologies": ["R", "Longitudinal Data Analysis", "Data Visualization", "Survival Analysis", "Logistic Regression" ],
+                "description": "This study evaluates real-world demographic profiles, treatment pathways, and clinical outcomes in Chronic Myeloid Leukemia (CML) patients receiving Tyrosine Kinase Inhibitors (TKIs). It tracks TKI lines of therapy, switching patterns, baseline risk scores, mutation profiles, and survival metrics (OS, EFS, TFS), while analyzing the impact of comorbidities (CCI) on achieving molecular response targets (MMR, DMR).",
+                "tags": [],
+                "link": "https://commercehelwanedu-my.sharepoint.com/:u:/g/personal/youssef_mohamedlafi_2021_fcba_capu_edu_eg/IQBBGUzJW_jPSqpev4rIIO3xARXz8b3ArLb_mlqH2qKf8vk?e=Be0Mg1"
+            },
+            {
+                "title": "Diagnostic Accuracy and Clinical Performance of Clinical and Imaging Breast Examinations",
+                "category": "SAR",
+                "technologies": ["R", "Diagnostic Test Accuracy (DTA)", "Data Visualization"],
+                "description": "This study evaluates the diagnostic performance of Clinical Breast Examination (CBE) and Imaging Breast Examination (IBE) against standardized BI-RADS classifications at the breast level. It assesses diagnostic accuracy metrics across patient age groups while contextualizing findings within baseline demographics, clinical histories, and examination efficiency metrics.",
+                "tags": [],
+                "link": "https://commercehelwanedu-my.sharepoint.com/:u:/g/personal/youssef_mohamedlafi_2021_fcba_capu_edu_eg/IQAJcu45oA-3Ro5OjWeaU2aPAZ03aUU48kCOveY-U9zKQHQ?e=ierA2T"
+            },
+            {
+                "title": "Antimicrobial Susceptibility Profiles and Molecular Resistance Mechanisms of Pseudomonas aeruginosa and Enterobacterales",
+                "category": "SAR",
+                "technologies": ["R", "Molecular Microbiology & Genotype-Phenotype Mapping", "Data Visualization", "Geographic & Regional Data Analysis"],
+                "description": "This epidemiological surveillance study evaluates the antimicrobial susceptibility profiles of Pseudomonas aeruginosa and Enterobacterales strains, focusing on Ceftolozane/tazobactam across various infection types and anatomical sites. It investigates secondary resistance mechanisms, characterizing phenotypic and genotypic distributions—including Extended-Spectrum Beta-Lactamases (ESBLs) and Carbapenem-Resistant Enterobacterales (CRE), and maps carbapenemase gene frequencies geographically.",
+                "tags": [],
+                "link": "https://commercehelwanedu-my.sharepoint.com/:u:/g/personal/youssef_mohamedlafi_2021_fcba_capu_edu_eg/IQDdEv0YS16dR7P4rpUMuR3xAfdzJSkw_LNkF4EcysCRQe4?e=tUeGjI"
+            }
+        ]
+        
+    }
+}

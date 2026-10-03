@@ -1,0 +1,206 @@
+/* ==========================================================================
+   Base Styles and Typography
+   ========================================================================== */
+
+/* Import Roboto font for consistent typography */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Global container spacing
+   Affects the entire app's padding and spacing
+   ========================================================================== */
+.block-container {
+    padding-top: 50px !important;  /* Top spacing of entire app */
+}
+
+.main > div {
+    padding-top: 30px;  /* Spacing between main sections */
+}
+
+/* ==========================================================================
+   Tab Navigation
+   Controls the appearance of all tab headers across the app
+   ========================================================================== */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 24px;  /* Space between tabs */
+}
+
+.stTabs [data-baseweb="tab"] {
+    font-size: 18px !important;  /* Tab text size */
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.stTabs [data-baseweb="tab-list"] button {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+    /* background-color: #e0e0e000;  Selected tab background */
+    border-radius: 10px;
+}
+
+/* ==========================================================================
+   Typography Hierarchy
+   Controls text sizes, colors, and spacing across the app
+   ========================================================================== */
+
+/* Main Titles (h1) - Used for section headers */
+h1 {
+    color: #008294 !important;  /* Primary title color */
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 50px !important;  /* Large title size */
+    font-weight: 700 !important;  /* Bold weight */
+    margin-bottom: 10px !important;  /* Space below titles */
+}
+
+/* Subtitles (h2) - Used for subsection headers */
+h2 {
+    color: #008294 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 40px !important;  /* Medium title size */
+    font-weight: 600 !important;
+    margin-bottom: 0.8rem !important;  /* Space below subtitles */
+}
+
+/* Small titles (h3) - Used for smaller section headers */
+h3 {
+    color: #008294 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 24px !important;  /* Small title size */
+    font-weight: 500 !important;
+    margin-bottom: 0.6rem !important;  /* Space below small titles */
+}
+
+
+h4 {
+    font-family: 'Roboto', serif !important;
+    font-size: 24px !important;
+    color: gray !important;
+    /* font-weight: 500 !important; */
+    line-height: 1.5 !important;  /* Proper spacing */
+    text-align: justify;
+    margin-bottom: 0.6rem !important;
+    display: block !important; /* Forces styling */
+}
+
+/* Body text - Used for regular paragraphs */
+p {
+    margin-bottom: 5.8rem;  /* Space between paragraphs */
+    line-height: 1.6;  /* Text line height */
+    font-family: 'Roboto', sans-serif !important;
+    /* font-family: 'Merriweather', serif !important; */
+    font-size: 20px !important;  /* Body text size */
+    text-align: justify;
+    /* color: rgba(255, 255, 255, 0.849) !important; */
+}
+
+/* ==========================================================================
+   Dashboard Components
+   Styles specific to the Dashboard tab
+   ========================================================================== */
+
+/* Metric Values - Numbers in stats cards */
+div[data-testid="stMetricValue"] {
+    font-size: 24px !important;  /* Stat number size */
+    font-weight: 600 !important;  /* Semi-bold weight */
+}
+
+/* Metric Changes - Delta values in stats */
+div[data-testid="stMetricDelta"] {
+    font-size: 16px !important;  /* Change indicator size */
+}
+
+/* Charts - All Plotly visualizations */
+.js-plotly-plot .plotly .main-svg {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Tables - All dataframes */
+.stDataFrame {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* ==========================================================================
+   Skills Section
+   Styles specific to the Skills tab
+   ========================================================================== */
+.skills-section ul {
+    margin-bottom: 0.6rem !important;  /* Space between skill lists */
+    line-height: 1.4;  /* Line height for skill items */
+}
+
+/* ==========================================================================
+   Certificates Section
+   Styles specific to the Certificates tab
+   ========================================================================== */
+.certificate-card {
+    border-radius: 10px;  /* Rounded corners */
+    padding: 15px;  /* Inner spacing */
+    margin-bottom: 15px;  /* Space between cards */
+}
+
+/* ==========================================================================
+   About Section
+   Styles specific to the About tab
+   ========================================================================== */
+.about-section img {
+    border-radius: 50%;  /* Circular profile image */
+    margin-bottom: 20px;  /* Space below image */
+}
+
+/* ==========================================================================
+   Timeline Styling
+   Controls the appearance of the timeline component
+   ========================================================================== */
+.timeline-event-card h3 {
+    color: #008294 !important;  /* Teal color for timeline headlines */
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.8rem !important;
+}
+
+/* Style the timeline text content */
+.timeline-event-card p {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    color: #4F4F4F !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Style the timeline dates */
+.timeline-event-card .date {
+    color: #4F4F4F !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Style the timeline cards */
+.timeline-event-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style the timeline media */
+.timeline-event-card img {
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ==========================================================================
+   Custom Colors
+   Main color variables used throughout the app
+   ========================================================================== */
+:root {
+    --primary-color: #008294;  /* Teal - Main accent color */
+    --secondary-color: #2E2E2E;  /* Dark gray - Secondary color */
+    --background-color: #FFFFFF;  /* White - Background color */
+    --text-color: #262730;  /* Dark gray - Main text color */
+}

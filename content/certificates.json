@@ -1,0 +1,20 @@
+{
+    "certificates": [
+        {
+            "title": "Statistical Analysis with R for Public Health Specialization",
+            "image": "Statistical Analysis with R.jpeg",
+            "verify_link": "https://coursera.org/share/b7dcfade7fa830c5418f1974123d2416"
+        },
+        {
+            "title": "Machine Learning",
+            "image": "Machine Learning.jpeg",
+            "verify_link": "https://coursera.org/share/10d099d61d5fee5d5810930ce613b634"
+        },
+        {
+            "title": "Python 3 Programing",
+            "image": "Python 3 Programing.jpeg",
+            "verify_link": "https://coursera.org/share/949f59a24256a65155943826e6a42236"
+        }
+       
+    ]
+}
