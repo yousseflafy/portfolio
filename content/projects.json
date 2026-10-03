@@ -7,7 +7,7 @@
                 "technologies": ["R", "Exploratory Data Analysis", "Data Visualization", "Healthcare Analytics"],
                 "description": "This study evaluates real-world Disease-Modifying Therapy (DMT) switching patterns in Multiple Sclerosis patients. It tracks shifts in disability (EDSS scores) and relapse rates before and after switching, while mapping key driver reasons against specific medication transitions.",
                 "tags": [],
-                "link": "../assets/projects/Study1.html"
+                "link": "./static/projects/Study1.html"
             },
             {
                 "title": "Longitudinal Safety and Tolerability Profile of Disease-Modifying",
