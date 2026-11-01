@@ -3,10 +3,11 @@ from src import about, journey, certificates, projects
 import os
 
 st.set_page_config(
-    page_title="Data Science Portfolio",
+    page_title="Portfolio & Research Work",
+    page_icon="🔬",
     layout="wide",
+    initial_sidebar_state="collapsed"
 )
-
 # Load external CSS
 def load_css(css_file):
     with open(css_file) as f:
@@ -16,6 +17,23 @@ def load_css(css_file):
 css_path = os.path.join(os.path.dirname(__file__), 'style.css')
 load_css(css_path)
 
+# Rounded Hero Header Component
+header_html = """
+<div class="app-header-card">
+    <div class="header-badge-row">
+        <span class="header-status-badge">
+            <span class="header-status-dot"></span>
+            Available for Research & Collaborations
+        </span>
+    </div>
+    <div class="header-title">Data Science & Biostatistical Portfolio</div>
+    <p class="header-subtitle">
+        Bridging statistical methodology, clinical observational data validation, 
+        and interactive data systems to generate reproducible real-world evidence.
+    </p>
+</div>
+"""
+st.markdown(header_html, unsafe_allow_html=True)
 # Create tabs
 tabs = ["About Me", "Professional Journey", "Projects", "Certificates"]
 current_tab = st.tabs(tabs)
